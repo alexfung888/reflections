@@ -15,10 +15,23 @@ add files of one logical change to staging and commit them.
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+experiements that I may completely fall back. 
+long exhancements when I will need to maintain the main branch for daily use.
+
+
 How do the diagrams help you visualize the branch structure?
+
+the diagrams help keep track of how the branches are split.
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+merging all the changes into one branch.
+
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+automatically handles simple cases, left us to decide whenever there is an ambiguity.
+
