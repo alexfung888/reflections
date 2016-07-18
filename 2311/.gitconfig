@@ -1,0 +1,26 @@
+[gui]
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	required = true
+[user]
+	name = alexfung888
+[user]
+	email = 1.alexfung@gmail.com
+
+
+[gui]
+	recentrepo = D:/Android/GitHub/asteroids
+	fontui = -family \"微軟正黑體 Light\" -size 10 -weight normal -slant roman -underline 0 -overstrike 0
+	fontdiff = -family Consolas -size 12 -weight normal -slant roman -underline 0 -overstrike 0
+	recentrepo = C:/Users/alexfung/udacity/vc/reflections
+[color]
+	ui = auto
+[core]
+	editor = 'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
+[push]
+	default = upstream
+[merge]
+	conflictstyle = diff3
+[http]
+	proxy = http://wch-tmg01.edb.local:8080
