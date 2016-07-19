@@ -1,0 +1,20 @@
+what a merge conflict looks like:
+
+<<<<<<< HEAD
+ 2. Add the tomato sauce, chili powder, cumin, oregano, salt, coffee, and cayenne.
+||||||| merged common ancestors
+ 2. Add the tomato sauce, chili powder, cumin, oregano, salt, and cayenne.
+=======
+ 2. Add the tomato sauce, chili powder, oregano, pepper, salt, and cayenne.
+>>>>>>> origin/master
+
+
+<<<<<<< HEAD
+local master ahead of common ancestor  (added coffee)
+||||||| merged common ancestors
+common ancestor 
+=======
+latest origin/master (deleted cumin and added pepper
+>>>>>>> origin/master
+
+
