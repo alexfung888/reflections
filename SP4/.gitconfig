@@ -1,10 +1,10 @@
 [gui]
 [filter "lfs"]
+	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
-	required = true
 [user]
-	name = alexfung888
+	name = alexfung
 [user]
 	email = 1.alexfung@gmail.com
 
@@ -16,8 +16,12 @@
 [color]
 	ui = auto
 [core]
+#	editor = 'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
 	editor = 'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -nosession -noPlugin
-  longpaths = true[push]
+	autocrlf = true
+  longpaths = true
+	excludesfile = C:\\Users\\alexfung\\Documents\\gitignore_global.txt
+[push]
 	default = upstream
 [merge]
 	conflictstyle = diff3
