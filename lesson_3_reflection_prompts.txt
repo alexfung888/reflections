@@ -28,4 +28,6 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    During a long change when the stuff won't work for an extended period of time, 
+    a branch ensure that I can do maintenance fix and other small enhancements on the Master.
+    Changing the Master directly is of course less tedious.
