@@ -30,4 +30,5 @@ master?  What benefits does each approach have?
 
     During a long change when the stuff won't work for an extended period of time, 
     a branch ensure that I can do maintenance fix and other small enhancements on the Master.
+    Or so if somebody else may be updating the master branch during my work.
     Changing the Master directly is of course less tedious.
