@@ -25,3 +25,10 @@
 	default = upstream
 [merge]
 	conflictstyle = diff3
+[http]
+#	proxy = http://wch-tmg01.edb.local:8080
+#	proxy = http://192.168.20.250:8080
+# commands to use
+#git config --global http.proxy http://wch-tmg01.edb.local:8080
+#git config --global http.proxy http://192.168.20.250:8080
+#git config --global --unset http.proxy
